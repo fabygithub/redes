@@ -8,13 +8,11 @@ acceso a la red
 controlar los dispositivos
 de la red cual es la ip
 
-intenernet
+internet
 determinar la ruta
 en el caso que falla
 
 transporte 
-
-
 aplicacion 
 se encarga de mostrar
 los datos
@@ -30,15 +28,53 @@ por los que va a viajar la comunicación:
 cable de pares trenzados (o no, como en RS232/EIA232), 
 cable coaxial, guías de onda, aire, fibra óptica.
 
-capa 2 
+capa 2 enlace de datos, 
 
-El nivel de enlace de datos (en inglés: data link level)
-o capa de enlace de datos, 
-es la segunda capa del modelo OSI,​
+
+es la segunda capa del modelo OSI
 es responsable de la transferencia fiable de información
-a través de un circuito de transmisión de datos. ​ 
+a través de un circuito de transmisión de datos
 Recibe peticiones de la capa de red y 
 utiliza los servicios de la capa física.
+
+capa 3 capa de red
+
+número tres en el modelo OSI, 
+se encarga de permitir la conexión entre dispositivos 
+que están ubicados en redes diferentes. 
+Así, en la capa de red conseguimos que haya comunicación 
+cuando no hay una conexión directa, consiguiendo
+así la aparición de comunicaciones de alcance mundial
+
+capa 4 transporte
+El nivel de transporte o capa de transporte 
+es el cuarto nivel del modelo OSI,​ 
+y está encargado de la transferencia 
+libre de errores de los datos entre el emisor
+y el receptor, aunque no estén directamente conectados, 
+así como de mantener el flujo de la red.
+
+capa 5 sesion
+El nivel de sesión o capa de sesión 
+es el quinto nivel del modelo OSI,​ 
+que proporciona los mecanismos para controlar 
+el diálogo entre las aplicaciones de los sistemas finales. 
+En muchos casos, los servicios de la capa de sesión 
+son parcialmente, o incluso, totalmente prescindibles.
+
+Capa de presentación - Capa 6
+Esta capa es la primera en trabajar más el contenido 
+de la comunicación que el cómo se establece la misma. 
+En ella se tratan aspectos tales como la semántica y 
+la sintaxis de los datos transmitidos, 
+ya que distintas computadoras pueden tener 
+diferentes formas de manejarlas.
+
+¿Cuál es la función de la capa 7?
+Capa 7: La capa de aplicación La capa de aplicación es la capa 
+del modelo OSI más cercana al usuario; suministra 
+servicios de red a las aplicaciones del usuario.
+
 
 
 distintas capas
@@ -65,7 +101,7 @@ capa 4 transporte
 capa 5 seccion permite la conexion y el intercambio
 de datos entre emisor y receptor
 
-capa 5 presentacion
+capa 6 presentacion
 capa 7 aplicacion
 
 _______________________________________________________________
@@ -154,6 +190,26 @@ diferentes
 no se pueden tener 2 direcciones ip
 
 ____________________________________________________________
+
+proceso de transmicion de datos
+cada capa es responsable de encapsular
+el segmente
+
+entrega la informacion necesario
+para levantar el servicio
+
+que es el multiplexacion
+que es segmentacion
+que es comunicacion convergente
+norma 568a
+
+______________________________________________________________
+
+ques es una trama
+udp
+trailer
+
+_______________________________________________________________
 
 
 
