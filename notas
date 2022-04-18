@@ -19,7 +19,28 @@ aplicacion
 se encarga de mostrar
 los datos
 
+// capas 1 modelo osi para que sirve
+
 modelo oci 8 capas
+capa 1
+Capa física - Capa 1
+Sus principales funciones se pueden resumir como: 
+Definir el medio o medios físicos 
+por los que va a viajar la comunicación: 
+cable de pares trenzados (o no, como en RS232/EIA232), 
+cable coaxial, guías de onda, aire, fibra óptica.
+
+capa 2 
+
+El nivel de enlace de datos (en inglés: data link level)
+o capa de enlace de datos, 
+es la segunda capa del modelo OSI,​
+es responsable de la transferencia fiable de información
+a través de un circuito de transmisión de datos. ​ 
+Recibe peticiones de la capa de red y 
+utiliza los servicios de la capa física.
+
+
 distintas capas
 
 tcp ip mucho mas facil entender
@@ -125,6 +146,15 @@ contiene que procesos se ejecutaran
 en la computadora de destino
 
 0 y 1 
+___________________________________________________________
+
+direccion ip si se pueden repetir en redes
+diferentes
+
+no se pueden tener 2 direcciones ip
+
+____________________________________________________________
+
 
 
 
