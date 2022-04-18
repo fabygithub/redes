@@ -1,0 +1,131 @@
+modelo tcp ip 4 capas
+red
+internet
+transporte
+aplicacion
+
+acceso a la red
+controlar los dispositivos
+de la red cual es la ip
+
+intenernet
+determinar la ruta
+en el caso que falla
+
+transporte 
+
+
+aplicacion 
+se encarga de mostrar
+los datos
+
+modelo oci 8 capas
+distintas capas
+
+tcp ip mucho mas facil entender
+que hace cada capa de tcp ip
+
+es un flujo para los dos lados
+error 404
+la pagina no se levanta
+
+___________________________________________
+
+modelo oci 7 capas
+como funciona el proceso
+de las capas de red
+
+capa fisica 1 capa
+enlace de datos capa 2
+capa de red capa 3
+
+capa 4 transporte
+ 
+capa 5 seccion permite la conexion y el intercambio
+de datos entre emisor y receptor
+
+capa 5 presentacion
+capa 7 aplicacion
+
+_______________________________________________________________
+
+modelos distintos el proceso es similar
+los protocolos de tcp ip
+protocolo aplicacion
+tranporte
+internet 
+acceso a la red
+
+modelo oci
+capa acceso red
+sub dividida
+aplicacion
+presentacion
+sesion
+
+en la capa tcp ip
+aplicacion
+
+
+oci
+enlace de datos
+fisica
+
+tcp ip
+accedo a la red
+
+el remedio el segmento
+
+para que pueda llegar a destina
+a traves de las 7 capas
+
+a una velocidad rapida
+cada elementos se identifican
+
+el receptor la pueda decodificar
+
+encapsulacion
+antes de trasmitir el datos
+debe estar encapsulado
+
+peticion de comunicacion
+navegador y el servidor web
+
+el modelo tcp ip
+proceso de envio pagina
+web
+
+
+capa aplicacion http
+
+
+identificados en la capa
+de transporte
+
+los datos de aplicacion
+se dividen en segmentos 
+
+capa transporta encapsula}
+el segmente
+
+envia a la capa de intertet
+ip
+
+encabezado ip host de origen
+paquete ip
+
+se encapsula en trama
+y en trailer
+direccion origen y destino
+
+acceso a la red
+
+tcp encabezado
+contiene que procesos se ejecutaran
+en la computadora de destino
+
+0 y 1 
+
+
+
+
