@@ -41,4 +41,234 @@ estaba obligada a seguir
 adquiriendo productos IBM 
 para interconexión.  
 
+Con el paso del tiempo, 
+distintas organizaciones vieron la necesidad 
+imperiosa de comunicarse entre si 
+y provocaron que la tendencia egoísta 
+y monopólica de algunas empresas 
+que manejaban sus propios protocolos 
+de comunicación, comenzara a desaparecer. 
+Junto con ello surgió el modelo OSI.
+
+El modelo OSI fue creado por la Organización 
+Internacional de Estandarización (ISO), 
+y estableció y comunico a todos los fabricantes 
+que para lograr comunicarse 
+todas las empresas sin importar 
+la marca de sus equipos
+plataformas, etc., 
+deberán utilizar este modelo de estandarización.
+
+De ahí en adelante, 
+la posibilidad de compartir archivos 
+y recursos desde cualquier parte del mundo,  
+desde cualquier empresa y es mas, 
+desde cualquier marca de equipo 
+se hizo realidad hasta el día de hoy.
+
+Conceptos básicos de 
+comunicación en la Red
+
+Desde que la comunicación se 
+estableció como 
+método de intercambio 
+de información entre dispositivos, 
+la rapidez y fluidez de ellos 
+se ha ido incrementando como así 
+también los medios 
+por los cuales se transmite.
+
+Half Duplex: 
+Transmite y recibe 
+en ambas direcciones
+pero sólo ocurre una transmisión 
+a la vez, es decir, no hay comunicación 
+bidireccional simultáneamente, 
+
+se debe esperar a que se termine de transmitir 
+para poder recibir. 
+Un ejemplo de ello podría ser un par 
+de radios como Walkie Talkie o 
+radios de índole militar.
+
+El estándar IEEE 802.3 original 
+define el Ethernet Half Duplex, 
+y Cisco utiliza sólo un par de 
+cables para transmitir y recibir 
+(el cable UTP tiene 4 pares).  
+
+También se 
+usa el protocolo CSMA/CD 
+para evitar las colisiones 
+y permitir la retransmisión 
+si se presenta una colisión; 
+es por ello que si conectamos 
+un Hub a un Switch, 
+debemos ponerlo en modo de Half Duplex, 
+para que las estaciones 
+conectadas puedan detectar las colisiones.  
+
+El ethernet Half Duplex 
+usualmente es del tipo 10BaseT 
+y cuando mucho dará 
+velocidades de 3 o 4 Mbps
+
+Full Duplex: Es otro modelo de transmisión 
+y su característica es que transmite 
+y recibe en ambas direcciones 
+al mismo tiempo.
+
+El Ethernet Full Duplex usa dos pares, 
+uno para transmitir y otro para recibir, 
+y además, una conexión punto a punto entre el 
+transmisor y el receptor, 
+lo que hace que las velocidades alcanzadas sean mucho mayores, 
+y como la transmisión y recepción 
+usan cables diferentes no ocurren colisiones. 
+
+Esto es porque ahora hay múltiples 
+vías en lugar de una sola para la comunicación. 
+Además, en teoría es 100% eficiente en ambas 
+direcciones (velocidad total en ambas direcciones) 
+pero esa velocidad se define como aggregate rate, 
+lo cual quiere decir 
+que es lo que se supone debes obtener, 
+pero no hay garantías. Ejemplo la telefonía…
+
+Se puede usar el modo Full Duplex en tres situaciones: 
+
+De un switch a un host
+De un Switch a otro Switch
+De Host a Host usando un cable cruzado
+
+Para recordar:
+
+No hay colisiones 
+en el modo Full Duplex
+Se requiere un puerto 
+dedicado de Switch 
+para cada nodo Full Duplex
+
+La tarjeta de red del host 
+y el puerto del switch 
+deben tener la capacidad 
+de funcionar en Full Duplex 
+
+Ahora, cuando dos puertos 
+se activan, se establece una negociación 
+entre ambos, y se establece el enlace 
+Fast Ethernet; este mecanismo se llama de 
+autodetección y decide la capacidad de intercambio, 
+
+es decir, revisa que ambos extremos 
+puedan usar 10 o 100Mbps, 
+y una vez establecida la velocidad, 
+revisa si puede funcionar en Full Duplex, 
+en caso contrario, usará Half Duplex.
+
+También existe otro tipo de transmisión 
+denominado Simplex (sx) o unidireccional 
+es aquella que ocurre en una dirección solamente
+deshabilitando al receptor de responder al transmisor. 
+
+Normalmente la transmisión simplex 
+no se utiliza donde se requiere 
+interacción humano-máquina. 
+
+Ejemplos de transmisión simplex son: 
+La radiodifusión (broadcast) de TV y radio
+el paging unidireccional, etc.
+
+
+Norma 568A y 568B
+
+El cableado estructurado 
+para redes de computadores 
+tiene dos tipos de normas
+la EIA/TIA-568A (T568A) 
+y la EIA/TIA-568B (T568B).
+
+Se diferencian por el orden de los colores 
+de los pares a seguir en el armado de 
+los conectores RJ45. 
+
+Si bien el uso de cualquiera de las dos normas 
+es indiferente, generalmente se utiliza 
+la T568B para el cableado recto.
+
+EL Cable:
+
+Par trenzado de 8 hilos UTP, FTP o STP, 
+Categoría 5, 5e, 6 o 7 recubierto 
+de un protector de PVC.
+
+Objetivos:
+
+TIA/EIA-568-A y B intenta definir estándares 
+que permitirán el diseño e implementación 
+de sistemas de cableado estructurado 
+para edificios comerciales y 
+entre edificios en entornos de campus. 
+
+El sustrato de los estándares es común 
+y define los tipos de cables, 
+distancias, 
+conectores, 
+arquitecturas, 
+terminaciones de cables y 
+características de rendimiento, 
+requisitos de instalación 
+de cable y 
+métodos de pruebas de los cables instalados. 
+
+El estándar principal, el TIA/EIA-568-B.1 
+define los requisitos generales, 
+mientras que TIA/EIA-568-B.2 
+se centra en componentes de 
+sistemas de cable de pares balanceados 
+y el -568-B.3 aborda componentes de 
+sistemas de cable de fibra óptica.
+
+La intención estándar 
+es proporcionar una serie de prácticas 
+recomendadas para el diseño e instalación 
+de sistemas de cableado que 
+soporten una amplia variedad de los servicios existentes
+y soportar servicios futuros que sean diseñados 
+considerando los estándares de cableado. 
+
+El estándar pretende cubrir 
+un rango de vida de más de diez 
+años para los sistemas de cableado 
+comercial. 
+
+En lo relacionado a la protección 
+contra interferencias eléctricas 
+y magnéticas tenemos las siguientes 
+opciones y características del cable:
+
+
+UTP - Unshielded Twisted Pair (pares trenzados sin pantalla o blindaje)
+STP - Shielded Twisted Pair (blindajes individuales para cada par trenzado)
+FTP - Foiled Twisted Pair (con pantalla o blindaje alrededor de todos los pares)
+Otras opciones menos conocidas son el ScTP (Screened Twister Pair, como el STP pero en 4 hilos) y el SSTP (Shielded- Screened Twisted Pair)
+
+Referente a la velocidad de transmisión tenemos las siguientes categorías de cableado:
+
+Categoría 1 - Cable UTP para voz (Velocidad 16 Kbps)
+Categoría 2 - Cable UTP para datos (Velocidad 4 Mbps)
+Categoría 3 - Cable UTP o STP para datos (Velocidad 10 Mbps)
+Categoría 4 - Cable UTP o STP para datos (Velocidad 16 Mbps)
+Categoría 5 - Cable UTP o STP para datos (Velocidad 100 Mbps)
+Categoría 5e - Cable UTP o STP para datos (Velocidad 200 Mbps)
+Categoría 6 - Cable UTP o STP para datos (Velocidad 1Gbps)
+Categoría 7 - Cable UTP o STP para datos (Velocidad 10 Gbps)
+
+También se puede decir que este 
+intento de definir estándares permitieron 
+determinar, además del diseño e implementación 
+en sistema de cableado estructurado, 
+qué cables de par trenzados 
+utilizar para estructurar conexiones locales.
+
 
