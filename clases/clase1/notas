@@ -5,6 +5,7 @@ direccion de host
 direccion de broadcast
 mascara de red
 router
+calculadora subred
 
 clase a =  255.0.0.0  / 8
 
