@@ -271,4 +271,293 @@ en sistema de cableado estructurado,
 qué cables de par trenzados 
 utilizar para estructurar conexiones locales.
 
+Telégrafo: Comunicación entre 
+grandes distancias geográficas.
+
+Red Telefónica : Revolución a nivel Militar, 
+Personal y Político.
+Instalación de Telefonía Domiciliaria.
+
+A principios de los 60, s
+olo existía conexión Cliente – Servidor, es 
+decir un ordenador hacia de Servidor, 
+pero los clientes no podían conectarse entre si.
+
+1967 nace ARPANET, 
+red con fines militares, 
+pero que al ir evolucionando 
+se convierte en la actual INTERNET.
+
+Que es 
+la Arquitectura de Redes
+
+En un principio las redes se dividían 
+de acuerdo al tipo de dispositivo 
+que la conformaban:
+
+Red Telefónica: 
+Comunicación vía Teléfono
+
+Red Informática : 
+Conecta dispositivos 
+Informáticos.
+
+
+Nace la red CONVERGENTE: 
+Utiliza una única red para varios fines. 
+Requiere de una buena arquitectura 
+para su funcionamiento 
+y de ahí la importancia 
+de conocer la arquitectura 
+de red y sus características.
+
+Que es la 
+Arquitectura de Redes
+
+Arquitectura: Tecnologías que admiten 
+Infraestructuras, Servicios y Protocolos 
+que transmiten los mensajes 
+a través de la red, 
+para que esta 
+sea fiable y funcione perfectamente.
+
+Cuatro son sus Características:
+
+ Tolerancia a Fallos
+ Escalabilidad
+ Calidad del Servicio
+ Seguridad	
+
+Tolerancia a fallos:
+
+Una red tolerante 
+a fallos es aquella 
+que limita el impacto 
+de un error de HW o SW, 
+y que además puede recuperarse 
+de ese error rápidamente. 
+
+Ej.; Si nosotros enviamos un mensaje 
+y la red nos genera un error 
+de enrutamiento, 
+la red lo que haría seria mandar el mensaje 
+por otra ruta distinta 
+de manera que el destinatario 
+no conocería de dicho error 
+y recibiría su mensaje correctamente. 
+
+A este sistema 
+se le denomina redundancia, 
+y es implementar varios caminos, 
+soluciones, etc., 
+
+para si en algún momento 
+uno falla tengamos mas 
+y el mensaje siempre 
+llegue a destino.
+
+Escalabilidad:
+
+Característica que permite 
+el crecimiento de las redes 
+sin repercutir en su funcionamiento. 
+
+Para poder permitir que se conecten 
+a la semana miles de usuarios 
+y proveedores de internet 
+y no se produzcan problemas de rendimiento, 
+
+se emplean procesos de diseño jerárquico 
+de capas para la estructura física 
+y la arquitectura lógica. 
+
+Calidad de servicio:
+
+Para que una red 
+suministre una buena calidad 
+de servicio, 
+
+crea lo que se denomina 
+como prioridades para que 
+de esta forma se de mas prioridad 
+
+a un streamming de video 
+que a una pagina web, 
+ya que esta ultima no requiere 
+de tantos servicios 
+para funcionar correctamente. 
+
+Calidad de servicio:
+
+Para que una red suministre una buena calidad de servicio, 
+crea lo que se denomina como prioridades 
+para que de esta forma 
+se de mas prioridad a un streamming de video 
+que a una pagina web, ya que esta ultima 
+no requiere de tantos servicios 
+para funcionar correctamente. 
+
+ELEMENTOS DE UNA RED
+
+Dispositivos que envían 
+y reciben mensajes
+
+Mensajes que se envían 
+de un dispositivo a otro
+
+Medio para conectar los 
+dispositivos  
+y para enviar los mensajes
+
+Reglas que rigen la forma 
+en la que se envían, 
+recibirán y se 
+interpretaran los mensajes.
+
+ELEMENTOS DE UNA RED
+
+Los medios mas comunes 
+son los cables 
+de red LAN  
+y aire WIFI
+
+Reglas
+
+Son los estándar 
+o protocolos 
+que utilizamos 
+para las comunicaciones.
+Algunos ejemplos 
+de reglas y 
+protocolos son los siguientes:
+
+Protocolo TCP/IP 
+para la transmisión de mensajes
+
+HTTP para www
+SMTP para el correo de salida
+POP para el correo de entrada
+SIP para la voz IP
+
+Mensajes
+
+Utilizamos la palabra 
+mensaje para referirnos 
+por ejemplo, a páginas web, 
+correos electrónicos, 
+llamadas telefónicas, 
+documentos para impresión, etc.
+
+Tipos de conexiones
+Para que una red funcione, 
+los dispositivos 
+
+tienen que estar interconectados, 
+ya sea mediante cables o por dispositivos inalámbricos.
+
+Conexiones por cable: 
+El medio suele ser cables de cobre 
+que transmiten señales eléctricas, 
+
+o por fibra óptica que 
+transmite señales de luz.
+
+Los tipos de cable 
+de cobre son el 
+Par Trenzado o el 
+Par Trenzado no blindado (UTP).
+
+
+Conexiones inalámbricas: 
+El medio es el aire 
+y las señales 
+son las microondas.
+
+Las conexiones 
+inalámbricas pueden ser:
+
+Router inalámbrico <-> ordenador
+dispositivo tierra <-> dispositivo tierra
+Dispositivo tierra <-> dispositivo satélite
+
+Comunicación y Componentes
+
+	A medida que la tecnología 
+ avanza la comunicación 
+ se posiciona como el valor 
+ mas alto en la vida de las personas
+ por cuanto las redes 
+ deben encontrarse disponibles 
+ en los mas recónditos lugares.
+
+	A grandes rasgos podemos decir 
+ que una comunicación esta compuesta 
+ por un emisor (el que envia el mensaje)
+ un canal (vía por la que se envia el mensaje) 
  
+ y un receptor 
+ (el que recibe el mensaje). 
+ 
+ Tanto el emisor 
+ como el receptor 
+ pueden ser personas 
+ o dispositivos.
+ 
+ 
+Ej. 
+Computador, 
+Red, 
+Impresora.
+
+Como Funciona el e_mail
+
+Pensemos en un 
+envío de correo, 
+simplemente que 
+un ordenador manda 
+un mensaje a otro. 
+
+Pero qué pasaría si dicho 
+mensaje se pierde 
+en el camino por un 
+fallo de red? 
+
+Tendríamos que enviarlo 
+nuevamente no? 
+Bien pues para solucionar 
+este problema lo que hacemos 
+en la comunicación entre 
+redes informáticas es enviar 
+dicho mensaje dividido en múltiples 
+paquetes más pequeños de tal 
+forma que si falla la red 
+solo tenemos que enviar el 
+paquete perdido y no todo el mensaje.
+ 
+Este proceso se 
+denomina Segmentación.
+
+Segmentación
+
+	La segmentación nos permite 
+ enviar varios mensajes a la vez 
+ (multiplexación) 
+ 
+ y que cada paquete de cada mensaje 
+ vaya por caminos distintos 
+ haciendo la comunicación 
+ más rápida y fiable.
+
+	La única desventaja 
+ de dicho proceso de segmentación 
+ es que al llegar 
+ al receptor se tienen que 
+ ordenar todos los paquetes 
+ 
+ antes de ser entregado. 
+ (Esto es un proceso complejo 
+ y requiere algo de tiempo).
+ 
+ 
+
+Video de Apoyo: https://www.youtube.com/watch?v=1B4SiOewm5Q
