@@ -1,18 +1,27 @@
 subneteo normal
 subneteo vlcm
+direccion de red
+direccion de host
+direccion de broadcast
+mascara de red
+router
 
-a =  255.0.0.0  / 8
+clase a =  255.0.0.0  / 8
 
 11111111.00000000.00000000.00000000
+   red      host    host     host
 
-b =  255.255.0.0 / 16
+clase b =  255.255.0.0 / 16
 
 11111111.11111111.00000000.00000000
+    red     red       host  host
 
-c =  255.255.255.0 / 24
+clase c =  255.255.255.0 / 24
 
 11111111.11111111.11111111.00000000
-
+    red      red     red     host
+    
+    
 
 
 176.25.0.0          176.25.1.255
