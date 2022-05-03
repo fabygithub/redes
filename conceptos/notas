@@ -930,7 +930,334 @@ la capa de aplicación
 donde se descodifica el mensaje 
 y se muestra al receptor.
 
+Modelo OSI
+
+El modelo OSI proporciona 
+una amplia lista de funciones 
+y servicios que se pueden 
+presentar en cada capa.
+
+Este modelo esta compuesto por 7 capas:
+
+Capa física: 
+Describe los medios físicos 
+y las conexiones físicas 
+para la trasmisión de bits 
+hacia y desde un dispositivo de red.
+
+Enlace de datos: Describe los métodos 
+para intercambiar tramas de datos 
+entre dispositivos, eso si, 
+teniendo un medio común.
+
+Red: Proporciona servicios 
+para el intercambio de datos 
+entre los dispositivos.
+
+Transporte: Define servicios para segmentar, 
+trasferir y reensamblar los datos.
+
+Sesión: Proporciona servicios a 
+la capa de Presentación para 
+organizar el intercambio de datos.
+
+Presentación: Se ocupa de la sintaxis 
+y de la semántica de la información 
+que se pretende trasmitir.
+
+Aplicación: Proporciona los medios para 
+la conectividad entre los dos 
+extremos de la comunicación.
 
 
+Los protocolos que forman 
+la suite de protocolos TCP/IP 
+pueden describirse en términos 
+del modelo de referencia OSI. 
 
+En el modelo OSI, 
+la capa de acceso a la red y 
 
+la capa de aplicación del modelo TCP/IP 
+están subdivididas para describir 
+funciones discretas que deben 
+producirse en estas capas. 
+
+En la capa de acceso a la red, 
+la suite de protocolos TCP/IP 
+no especifica qué protocolos 
+se deben utilizar cuando 
+se transmite por un medio físico, 
+
+sino que solo describe 
+la transferencia desde la capa 
+de Internet hacia los 
+protocolos de red física. 
+
+Las capas 1 y 2 de OSI 
+tratan los procedimientos n
+ecesarios para acceder a los 
+medios y las maneras físicas 
+de enviar datos a través 
+de una red.
+
+Continuación
+
+Como se muestra en la ilustración, 
+los paralelismos fundamentales 
+entre los dos modelos 
+de red se producen en las 
+
+capas 3 y 4 de OSI. 
+La capa 3 de OSI, la capa de red, 
+se utiliza casi universalmente 
+para describir el alcance de los 
+procesos que ocurren 
+en todas las redes de datos 
+para dirigir y enrutar mensajes a través
+de una internetwork. 
+
+IP es el protocolo 
+de la suite TCP/IP 
+que incluye la funcionalidad 
+descrita en la capa 3 de OSI. 
+
+La capa 4, la capa de transporte 
+del modelo OSI, 
+describe los servicios 
+y las funciones generales 
+que proporcionan 
+la entrega ordenada y confiable 
+de datos entre los hosts 
+de origen y de destino. 
+
+Estas funciones 
+incluyen acuse de recibo, 
+recuperación de errores
+y secuenciamiento. 
+
+En esta capa, los protocolos TCP/IP, 
+el protocolo TCP y 
+el protocolo de datagramas del usuario (UDP) 
+proporcionan la funcionalidad necesaria. 
+
+Envío de Datos Encapsulación
+
+La encapsulación de datos 
+es el proceso que agrega 
+la información adicional del encabezado 
+del protocolo a los datos 
+antes de la transmisión.
+ 
+En la mayoría de las formas 
+de comunicaciones de datos, 
+los datos originales se encapsulan 
+o envuelven en varios protocolos 
+antes de transmitirse. 
+
+Cuando se envían mensajes en una red, 
+el stack de protocolos de un host 
+opera desde las capas superiores 
+hacia las capas inferiores. 
+
+En el ejemplo del servidor 
+Web podemos utilizar 
+el modelo TCP/IP para 
+ilustrar el proceso de envío 
+de una página Web HTML 
+a un cliente.
+
+El protocolo de capa de aplicación, 
+HTTP, comienza el proceso entregando 
+los datos de la página Web 
+con formato HTML a la capa de transporte.
+
+Allí, los datos de aplicación 
+se dividen en segmentos de TCP. 
+A cada segmento de TCP se 
+le otorga una etiqueta, 
+denominada encabezado, 
+
+que contiene información sobre qué 
+procesos que se ejecutan 
+en la computadora de destino 
+deben recibir el mensaje. 
+
+También contiene la información 
+que permite que el proceso de 
+destino rearme los datos 
+en su formato original
+
+La capa de transporte 
+encapsula los datos HTML 
+de la página Web dentro del 
+segmento y los envía 
+
+a la capa de Internet, 
+donde se implementa el protocolo IP. 
+Aquí, el segmento de TCP se encapsula 
+en su totalidad dentro de un paquete IP 
+
+que agrega otro rótulo denominado 
+encabezado IP. 
+
+El encabezado IP contiene 
+las direcciones IP de host 
+de origen y de destino, 
+
+como también la información 
+necesaria para entregar el 
+paquete a su proceso de 
+destino correspondiente. 
+
+A continuación, el paquete IP 
+
+se envía a la capa de acceso a la red, 
+donde se encapsula dentro de un encabezado 
+de trama y un tráiler. 
+Cada encabezado de trama contiene 
+una dirección física de 
+origen y de destino. 
+
+La dirección física identifica de 
+forma exclusiva los dispositivos 
+en la red local. 
+El tráiler contiene información 
+de verificación de errores. 
+
+Por último, los bits se codifican 
+en el medio mediante 
+la tarjeta de interfaz de red 
+(NIC) del servidor
+
+Notación Binaria en direcciones IP
+
+Para comprender el funcionamiento 
+de los dispositivos en una red
+debemos observar las direcciones 
+y otros datos de la misma manera 
+en que lo hacen los dispositivos: 
+en notación binaria. 
+
+La notación binaria 
+es una representación de la información 
+mediante unos y ceros solamente. 
+Las PC se comunican mediante datos binarios. 
+
+Los datos binarios 
+se pueden utilizar para 
+representar muchas formas 
+distintas de datos. 
+
+Por ejemplo, 
+al pulsar letras en un teclado, 
+esas letras aparecen en la pantalla 
+de una manera que el usuario 
+puede leer y comprender. 
+Sin embargo, la PC traduce cada letra 
+a una serie de dígitos binarios 
+para su almacenamiento y transporte. 
+Para traducir esas letras, 
+la PC utiliza 
+el Código Estadounidense Estándar 
+para el Intercambio de Información (ASCII). 
+
+Mediante ASCII, 
+la letra “A” se 
+representa en forma de bit 
+como “01000001”, 
+mientras que la “a” minúscula 
+se representa en forma de 
+bit como “01100001”. 
+
+Cada dispositivo en una red 
+se debe identificar de forma 
+exclusiva mediante una dirección binaria. 
+
+En redes IPv4, esta dirección 
+se representa mediante una cadena de 32 bits 
+(unos y ceros). 
+
+A continuación, en la capa de red, 
+los paquetes incluyen esta información 
+de identificación única para los 
+sistemas de origen y de destino. 
+
+Por lo tanto, en una red IPv4, 
+cada paquete incluye una dirección de origen de 32 bits 
+y una dirección de destino de 32 bits 
+en el encabezado de capa 3.
+
+Para la mayoría de las personas, 
+una cadena de 32 bits es difícil 
+de interpretar e incluso más difícil de recordar. 
+Por este motivo, representamos las direcciones 
+IPv4 mediante el formato decimal punteado 
+en lugar del binario.
+
+En un sistema de notación de posición, 
+la base numérica se denomina “raíz”. 
+En el sistema de base 10, 
+la raíz o base es 10. 
+En el sistema binario, 
+se utiliza una raíz o base 2.
+
+Ej  base 10 
+
+Esto significa que vemos 
+a cada byte (octeto) como número 
+decimal en el rango de 0 a 255
+
+En IPv4, las direcciones 
+son números binarios de 32 bits. 
+
+Sin embargo, para 
+facilitar el uso por 
+parte de las personas, 
+los patrones binarios que 
+representan direcciones IPv4 
+se expresan en formato decimal punteado. 
+
+Esto primero se logra separando 
+cada byte (8 bits) del patrón 
+binario de 32 bits, 
+
+llamado “octeto”, con un punto.
+Se le llama octeto debido a que cada 
+número decimal representa un byte u 8 bits.
+
+La dirección binaria:
+11000000 10101000 00001010 00001010
+128+64    128 + 32 + 8     8 + 2 = 10   8 + 2 = 10
+se expresa como decimal punteada de la siguiente manera:
+192.168.10.10
+
+En el sistema de numeración binaria 
+la raíz es 2. Por lo tanto, 
+cada posición representa 
+aumentos en potencias de 2. 
+
+2^7 2^6 2^5 2^4 2^3 2^2 2^1 2^0
+128 64 32 16 8 4 2 1  
+
+El sistema de numeración de base 2 
+solo tiene 0 y 1.
+
+11000001.00101010.11100100.00111000
+
+128 + 64 = 192
+
+convertir decimal a binario
+
+125.215.18.9 =
+
+125  1
+ 62  0
+ 31  1
+ 15  1
+  7  1
+  3  1
+  1  1
+     
+     
+  1111101
