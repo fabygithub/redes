@@ -1,9 +1,9 @@
 Que es una red:
 
-Llamamos red de computadores 
-a un conjunto de equipos 
-que están conectados 
-entre si mediante cables, 
+red de computadores 
+conjunto de equipos 
+conectados 
+mediante cables, 
 ondas electromagnéticas, etc.
 
 El objetivo principal de interconectar 
@@ -23,13 +23,17 @@ las empresas,
 los fabricantes tenían 
 sus propios métodos 
 de comunicación 
-entre computadoras. 
+entre computadoras.
+
 Eso provocaba que por ejemplo 
-IBM fabricaba sus protocolos 
-para conectar sus elementos 
+IBM fabricaba 
+sus protocolos 
+para conectar 
+sus elementos 
 y no le interesaba saber cuales 
 eran los otros 
-protocolos de comunicación 
+protocolos de comunicación
+
 que tenían empresas 
 que no eran parte de IBM. 
 Esa actitud se convertía 
@@ -42,29 +46,47 @@ adquiriendo productos IBM
 para interconexión.  
 
 Con el paso del tiempo, 
-distintas organizaciones vieron la necesidad 
-imperiosa de comunicarse entre si 
-y provocaron que la tendencia egoísta 
-y monopólica de algunas empresas 
-que manejaban sus propios protocolos 
-de comunicación, comenzara a desaparecer. 
-Junto con ello surgió el modelo OSI.
+distintas organizaciones 
+vieron la necesidad 
+imperiosa de comunicarse 
+entre si 
+y provocaron que 
+la tendencia egoísta 
+y monopólica de 
+algunas empresas 
+que manejaban sus 
+propios protocolos 
+de comunicación, 
+comenzara a desaparecer. 
+Junto con ello 
+surgió el modelo OSI.
 
-El modelo OSI fue creado por la Organización 
-Internacional de Estandarización (ISO), 
-y estableció y comunico a todos los fabricantes 
-que para lograr comunicarse 
-todas las empresas sin importar 
+El modelo OSI fue 
+creado por la Organización 
+Internacional de 
+Estandarización (ISO), 
+
+y estableció y 
+comunico a todos los fabricantes 
+que para lograr 
+comunicarse 
+todas las empresas 
+sin importar 
 la marca de sus equipos
 plataformas, etc., 
-deberán utilizar este modelo de estandarización.
+deberán utilizar 
+este modelo de estandarización.
+
 
 De ahí en adelante, 
 la posibilidad de compartir archivos 
-y recursos desde cualquier parte del mundo,  
-desde cualquier empresa y es mas, 
+y recursos desde cualquier
+parte del mundo,  
+desde cualquier empresa 
+y es mas, 
 desde cualquier marca de equipo 
-se hizo realidad hasta el día de hoy.
+se hizo realidad hasta
+el día de hoy.
 
 Conceptos básicos de 
 comunicación en la Red
@@ -73,10 +95,14 @@ Desde que la comunicación se
 estableció como 
 método de intercambio 
 de información entre dispositivos, 
-la rapidez y fluidez de ellos 
-se ha ido incrementando como así 
+
+la rapidez y fluidez
+de ellos 
+se ha ido incrementando
+como así 
 también los medios 
 por los cuales se transmite.
+
 
 Half Duplex: 
 Transmite y recibe 
