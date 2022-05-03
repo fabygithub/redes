@@ -58,68 +58,84 @@ que manejaban sus
 propios protocolos 
 de comunicación, 
 comenzara a desaparecer. 
+
 Junto con ello 
 surgió el modelo OSI.
 
 El modelo OSI fue 
 creado por la Organización 
 Internacional de 
-Estandarización (ISO), 
+Estandarización (ISO)
 
 y estableció y 
-comunico a todos los fabricantes 
+comunico a todos 
+los fabricantes 
 que para lograr 
 comunicarse 
 todas las empresas 
 sin importar 
-la marca de sus equipos
+la marca de 
+sus equipos
 plataformas, etc., 
 deberán utilizar 
 este modelo de estandarización.
 
 
 De ahí en adelante, 
-la posibilidad de compartir archivos 
+la posibilidad de 
+compartir archivos 
 y recursos desde cualquier
 parte del mundo,  
 desde cualquier empresa 
 y es mas, 
-desde cualquier marca de equipo 
+desde cualquier 
+marca de equipo 
 se hizo realidad hasta
 el día de hoy.
 
 Conceptos básicos de 
 comunicación en la Red
 
-Desde que la comunicación se 
+Desde que la 
+comunicación se 
 estableció como 
-método de intercambio 
-de información entre dispositivos, 
+método de 
+intercambio 
+de información 
+entre dispositivos, 
 
 la rapidez y fluidez
 de ellos 
-se ha ido incrementando
+se ha ido 
+incrementando
 como así 
-también los medios 
-por los cuales se transmite.
+también los 
+medios 
+por los cuales 
+se transmite.
 
 
 Half Duplex: 
 Transmite y recibe 
 en ambas direcciones
-pero sólo ocurre una transmisión 
-a la vez, es decir, no hay comunicación 
+pero sólo 
+ocurre una transmisión 
+a la vez, es decir, 
+no hay comunicación 
 bidireccional simultáneamente, 
 
-se debe esperar a que se termine de transmitir 
+se debe esperar a que 
+se termine de transmitir 
 para poder recibir. 
-Un ejemplo de ello podría ser un par 
+Un ejemplo de ello 
+podría ser un par 
 de radios como Walkie Talkie o 
 radios de índole militar.
 
 El estándar IEEE 802.3 original 
 define el Ethernet Half Duplex, 
-y Cisco utiliza sólo un par de 
+y Cisco utiliza 
+sólo un par de 
 cables para transmitir y recibir 
 (el cable UTP tiene 4 pares).  
 
@@ -127,30 +143,43 @@ También se
 usa el protocolo CSMA/CD 
 para evitar las colisiones 
 y permitir la retransmisión 
-si se presenta una colisión; 
-es por ello que si conectamos 
+si se presenta 
+una colisión; 
+
+es por ello que 
+si conectamos 
 un Hub a un Switch, 
-debemos ponerlo en modo de Half Duplex, 
+debemos ponerlo en 
+modo de Half Duplex, 
 para que las estaciones 
-conectadas puedan detectar las colisiones.  
+conectadas puedan detectar 
+las colisiones.  
 
 El ethernet Half Duplex 
 usualmente es del tipo 10BaseT 
 y cuando mucho dará 
 velocidades de 3 o 4 Mbps
 
-Full Duplex: Es otro modelo de transmisión 
-y su característica es que transmite 
-y recibe en ambas direcciones 
+Full Duplex: Es otro modelo 
+de transmisión 
+y su característica es 
+que transmite 
+y recibe en ambas 
+direcciones 
 al mismo tiempo.
 
-El Ethernet Full Duplex usa dos pares, 
-uno para transmitir y otro para recibir, 
-y además, una conexión punto a punto entre el 
+El Ethernet Full Duplex 
+usa dos pares, 
+uno para transmitir 
+y otro para recibir, 
+y además, una conexión 
+punto a punto entre el 
 transmisor y el receptor, 
-lo que hace que las velocidades alcanzadas sean mucho mayores, 
+lo que hace que las velocidades 
+alcanzadas sean mucho mayores, 
 y como la transmisión y recepción 
-usan cables diferentes no ocurren colisiones. 
+usan cables diferentes 
+no ocurren colisiones. 
 
 Esto es porque ahora hay múltiples 
 vías en lugar de una sola para la comunicación. 
@@ -182,20 +211,31 @@ de funcionar en Full Duplex
 
 Ahora, cuando dos puertos 
 se activan, se establece una negociación 
-entre ambos, y se establece el enlace 
-Fast Ethernet; este mecanismo se llama de 
-autodetección y decide la capacidad de intercambio, 
+entre ambos, 
+
+y se establece el enlace 
+Fast Ethernet; este mecanismo 
+se llama de 
+autodetección y decide la 
+capacidad de intercambio, 
 
 es decir, revisa que ambos extremos 
 puedan usar 10 o 100Mbps, 
-y una vez establecida la velocidad, 
-revisa si puede funcionar en Full Duplex, 
-en caso contrario, usará Half Duplex.
+y una vez establecida 
+la velocidad, 
+revisa si puede funcionar 
+en Full Duplex, 
+en caso contrario, 
+usará Half Duplex.
 
-También existe otro tipo de transmisión 
-denominado Simplex (sx) o unidireccional 
-es aquella que ocurre en una dirección solamente
-deshabilitando al receptor de responder al transmisor. 
+También existe otro 
+tipo de transmisión 
+denominado Simplex (sx) 
+o unidireccional 
+es aquella que ocurre en 
+una dirección solamente
+deshabilitando al receptor 
+de responder al transmisor. 
 
 Normalmente la transmisión simplex 
 no se utiliza donde se requiere 
@@ -245,7 +285,8 @@ terminaciones de cables y
 características de rendimiento, 
 requisitos de instalación 
 de cable y 
-métodos de pruebas de los cables instalados. 
+métodos de pruebas 
+de los cables instalados. 
 
 El estándar principal, el TIA/EIA-568-B.1 
 define los requisitos generales, 
@@ -259,8 +300,10 @@ La intención estándar
 es proporcionar una serie de prácticas 
 recomendadas para el diseño e instalación 
 de sistemas de cableado que 
-soporten una amplia variedad de los servicios existentes
-y soportar servicios futuros que sean diseñados 
+soporten una amplia variedad 
+de los servicios existentes
+y soportar servicios futuros 
+que sean diseñados 
 considerando los estándares de cableado. 
 
 El estándar pretende cubrir 
@@ -277,7 +320,8 @@ opciones y características del cable:
 UTP - Unshielded Twisted Pair (pares trenzados sin pantalla o blindaje)
 STP - Shielded Twisted Pair (blindajes individuales para cada par trenzado)
 FTP - Foiled Twisted Pair (con pantalla o blindaje alrededor de todos los pares)
-Otras opciones menos conocidas son el ScTP (Screened Twister Pair, como el STP pero en 4 hilos) y el SSTP (Shielded- Screened Twisted Pair)
+Otras opciones menos conocidas son el ScTP (Screened Twister Pair, como el STP pero en 4 hilos) y 
+el SSTP (Shielded- Screened Twisted Pair)
 
 Referente a la velocidad de transmisión tenemos las siguientes categorías de cableado:
 
@@ -304,10 +348,14 @@ Red Telefónica : Revolución a nivel Militar,
 Personal y Político.
 Instalación de Telefonía Domiciliaria.
 
+
 A principios de los 60, s
-olo existía conexión Cliente – Servidor, es 
-decir un ordenador hacia de Servidor, 
-pero los clientes no podían conectarse entre si.
+olo existía conexión 
+Cliente – Servidor, es 
+decir un ordenador 
+hacia de Servidor, 
+pero los clientes no podían 
+conectarse entre si.
 
 1967 nace ARPANET, 
 red con fines militares, 
@@ -366,7 +414,8 @@ de ese error rápidamente.
 Ej.; Si nosotros enviamos un mensaje 
 y la red nos genera un error 
 de enrutamiento, 
-la red lo que haría seria mandar el mensaje 
+la red lo que haría 
+seria mandar el mensaje 
 por otra ruta distinta 
 de manera que el destinatario 
 no conocería de dicho error 
@@ -415,11 +464,14 @@ para funcionar correctamente.
 
 Calidad de servicio:
 
-Para que una red suministre una buena calidad de servicio, 
+Para que una red suministre una
+buena calidad de servicio, 
 crea lo que se denomina como prioridades 
 para que de esta forma 
-se de mas prioridad a un streamming de video 
-que a una pagina web, ya que esta ultima 
+se de mas prioridad a un 
+streamming de video 
+que a una pagina web, 
+ya que esta ultima 
 no requiere de tantos servicios 
 para funcionar correctamente. 
 
@@ -438,7 +490,8 @@ y para enviar los mensajes
 Reglas que rigen la forma 
 en la que se envían, 
 recibirán y se 
-interpretaran los mensajes.
+interpretaran 
+los mensajes.
 
 ELEMENTOS DE UNA RED
 
@@ -508,7 +561,7 @@ Dispositivo tierra <-> dispositivo satélite
 
 Comunicación y Componentes
 
-	A medida que la tecnología 
+ A medida que la tecnología 
  avanza la comunicación 
  se posiciona como el valor 
  mas alto en la vida de las personas
@@ -516,10 +569,12 @@ Comunicación y Componentes
  deben encontrarse disponibles 
  en los mas recónditos lugares.
 
-	A grandes rasgos podemos decir 
+ A grandes rasgos podemos decir 
  que una comunicación esta compuesta 
- por un emisor (el que envia el mensaje)
- un canal (vía por la que se envia el mensaje) 
+ por un emisor 
+ (el que envia el mensaje)
+ un canal (vía por la que se 
+ envia el mensaje) 
  
  y un receptor 
  (el que recibe el mensaje). 
@@ -559,35 +614,32 @@ paquetes más pequeños de tal
 forma que si falla la red 
 solo tenemos que enviar el 
 paquete perdido y no todo el mensaje.
- 
+   
 Este proceso se 
 denomina Segmentación.
 
 Segmentación
 
-	La segmentación nos permite 
- enviar varios mensajes a la vez 
- (multiplexación) 
+La segmentación nos permite 
+enviar varios mensajes a la vez 
+(multiplexación) 
  
- y que cada paquete de cada mensaje 
- vaya por caminos distintos 
- haciendo la comunicación 
- más rápida y fiable.
-
-	La única desventaja 
- de dicho proceso de segmentación 
- es que al llegar 
- al receptor se tienen que 
- ordenar todos los paquetes 
+y que cada paquete de cada mensaje 
+vaya por caminos distintos 
+haciendo la comunicación 
+más rápida y fiable.
  
- antes de ser entregado. 
- (Esto es un proceso complejo 
- y requiere algo de tiempo).
+La única desventaja 
+de dicho proceso de segmentación 
+es que al llegar 
+al receptor se tienen que 
+ordenar todos los paquetes 
  
+antes de ser entregado. 
+(Esto es un proceso complejo 
+y requiere algo de tiempo).
  
-
 Video de Apoyo: https://www.youtube.com/watch?v=1B4SiOewm5Q
-
 
 Conceptos Básicos
 
@@ -636,13 +688,15 @@ la dirección del host destino.
 Además de esta función 
 se encargan de notificar errores 
 en la recepción de mensajes
-clasificar y administrar las prioridades 
+clasificar y administrar 
+las prioridades 
 de los mensajes y permitir 
-o denegar el flujo de mensajes 
-de acuerdo con los parámetros de seguridad.
+o denegar el flujo 
+de mensajes 
+de acuerdo con los 
+parámetros de seguridad.
 
 Conceptos Básicos
-
 
 Medios: Es el canal 
 por el que se transmiten 
