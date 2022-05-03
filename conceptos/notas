@@ -561,3 +561,376 @@ Segmentación
  
 
 Video de Apoyo: https://www.youtube.com/watch?v=1B4SiOewm5Q
+
+
+Conceptos Básicos
+
+Dispositivos finales: 
+En la red llamamos a los 
+dispositivos finales HOST 
+y pueden ser ordenadores, 
+impresoras de red, 
+escaner, etc. 
+
+Para distinguir un host 
+de otro le asignamos 
+una dirección (IP), 
+que será utilizada por otro host 
+para especificar 
+el destino del mensaje. 
+
+Un host puede actuar 
+como cliente, 
+como servidor o 
+como ambos a la vez.
+
+Los servidores son host 
+que proporcionan información 
+y servicios a otros host de la red.
+
+Los clientes son host que 
+solicitan información a 
+servidores y muestran 
+dicha información.
+
+Conceptos Básicos
+
+
+Dispositivos intermedios: 
+Son aquellos que permiten 
+la conexión entre 
+host o redes 
+(hubs, routers, modems, firewalls). 
+
+Son los que determinan 
+la ruta de los mensajes 
+tomando como referencia 
+la dirección del host destino. 
+
+Además de esta función 
+se encargan de notificar errores 
+en la recepción de mensajes
+clasificar y administrar las prioridades 
+de los mensajes y permitir 
+o denegar el flujo de mensajes 
+de acuerdo con los parámetros de seguridad.
+
+Conceptos Básicos
+
+
+Medios: Es el canal 
+por el que se transmiten 
+los mensajes. 
+
+Actualmente tenemos tres tipos 
+de medios: 
+cable de cobre, 
+fibra óptica 
+y transmisión inalámbrica. 
+
+La codificación del 
+mensaje en cada medio 
+es diferente. 
+
+Hay que saber elegir 
+bien el medio ya que cada 
+uno tiene propiedades, 
+ventajas y desventajas 
+diferentes. 
+
+Servicios: Es software utilizado 
+en cada caso. 
+Nos podemos referir al gestor de correo, 
+al protocolo tcp/ip, 
+a la página web.... 
+Es decir todo programa que nos ayude a 
+enviar y visualizar nuestro mensaje.
+
+Tipos de Redes 
+
+Redes LAN, 
+Redes WAN, 
+Intranet e 
+Internetworks
+
+Cuando hablamos 
+de LAN podemos decir 
+que se trata 
+de redes pequeñas, 
+generalmente localizadas en una misma 
+situación geográfica 
+y que suelen dar servicio 
+a una sola empresa, 
+edificio, casa, etc.
+
+Su capacidad de 
+transmisión esta comprendida 
+entre 1Mbps y 1Gbps.
+
+Tiene varias 
+tipologías de red.
+
+Redes WAN
+
+Pensemos que estamos 
+en una empresa internacional
+con varias sedes en distintos países. 
+
+Cada sede posee su LAN, 
+pero tienen que estar comunicadas entre sí, 
+esa comunicación se realiza 
+a través de la red WAN.
+
+Las WAN utilizan dispositivos 
+especiales para realizar las 
+interconexiones entre las 
+distintas redes LAN. 
+
+Además pueden usar 
+sistemas de comunicación 
+vía satélite o radio
+
+Tipos de Redes 
+
+
+Se entiende Intranet 
+cuando queremos hablar de 
+redes LAN y WAN privadas 
+dentro de una empresa, 
+organización, etc. 
+
+
+A ellas solo se tiene acceso 
+mediante usuario y contraseñas 
+privadas (login).
+
+Este tipo de redes 
+se suelen utilizar 
+para compartir recursos 
+dentro de la red, 
+es decir, suelen servir para alojar 
+paginas web de la empresa, 
+para compartir impresoras, 
+escaner, etc. 
+y además cuentan con opción 
+de salida a Internet. 
+
+Tipos de Redes 
+
+Internetworks es lo 
+que lo que nosotros 
+conocemos como Internet
+y es simplemente un 
+montón de redes LAN 
+y WAN conectadas 
+entre si formando 
+una especie de maraña.
+
+Internet se crea 
+mediante la interconexión 
+de redes de proveedores de 
+servicios de Internet (ISP). 
+
+Proporcionan acceso a 
+Internet a millones de usuarios 
+de todo el mundo, 
+garantizando una comunicación 
+efectiva y rápida. 
+
+No esta centralizada 
+ni regida por un 
+único organismo, 
+sino que se gestiona 
+mediante muchos organismos.
+
+ICANN (gestionar nombres de dominios 
+y direcciones IP), 
+en Chile es NIC
+
+IETF(encargada de 
+redactar los protocolos).
+
+Se utilizan también 
+para instalar programas 
+internos dentro de la empresa, 
+organización, etc.
+
+
+Protocolos de las Redes 
+
+Los protocolos son las 
+reglas que rigen la 
+comunicación dentro de una red 
+y para que haya comunicación 
+entre dos host, por ejemplo, 
+se requieren muchos protocolos. 
+
+A este conjunto de protocolos 
+necesarios se les llama 
+suite de protocolos 
+y están implementados en 
+cada dispositivo perteneciente a la red.
+
+La suite de protocolos 
+se organiza mediante capas, 
+las cuales no pueden 
+funcionar independientemente 
+sin las demás. 
+
+Las capas inferiores 
+ofrecen servicios 
+a las capas superiores. 
+
+Por norma general las capas 
+inferiores están destinadas 
+a ver como enviar el mensaje y 
+las superiores a como mostrarlo 
+en los destinatarios.
+
+Procesos para la Suite de Protocolo
+
+El formato y 
+la estructura del mensaje
+El método por 
+el cual los dispositivos 
+van a compartir información
+Como se transmiten 
+mensajes de error
+La configuración de la 
+transmisión de datos
+
+Interacción de los protocolos en la red
+
+Uno de los ejemplos 
+mas clarificantes 
+para explicar la interacción 
+de un protocolo 
+es la comunicación entre un 
+servidor web  y un navegador web.
+
+El servidor web envía información 
+al explorador web y dicha información 
+se envía siguiendo 
+una serie de protocolos. 
+
+Protocolo de aplicación: 
+Se utiliza el conocido protocolo http 
+(protocolo de trasferencia de hipertexto). 
+
+Este protocolo rige la forma 
+de comunicarse el servidor web 
+con el cliente web. 
+
+Así mismo dicho protocolo 
+esta compuesto por otros inferiores 
+que rigen la forma en que se transporta 
+la información entre cliente y servidor.
+
+Protocolo de trasporte: 
+Se utiliza el TCP 
+(protocolo de control de transmisión). 
+Este protocolo divide la 
+información en pequeños trozos 
+llamados segmentos que se envían al cliente. 
+
+Además controla con que 
+frecuencia se deben 
+enviar dichos segmentos 
+y sus tamaños.
+
+Protocolo Internet: 
+También conocido como protocolo IP. 
+Este protocolo coge los segmentos 
+que le envía el protocolo TCP, 
+los empaqueta y elije 
+la mejor ruta para su envío.
+
+Protocolos de acceso a la red: 
+aquí tenemos varios protocolos 
+que lo que hacen es administrar 
+los paquetes y su trasmisión 
+física a través de la red.
+
+MODELO DE CAPAS EN LAS REDES
+
+El modelo de capas describe 
+el funcionamiento 
+de los protocolos 
+que se producen en cada capa 
+y a su vez describe 
+la interacción entre las 
+diferentes capas.
+
+Podemos decir que el uso 
+del modelo de capas nos 
+permite hacer más fácil 
+el diseño de protocolos, 
+además nos proporciona un lenguaje común 
+para la comunicación 
+en las redes informáticas.
+
+El uso de este modelo evita 
+que los continuos cambios 
+tecnológicos afecten 
+a los protocolos y a 
+las distintas capas.
+
+Modelo TCP/IP: 
+Modelo que describe las funciones 
+que ocurren en cada capa 
+de protocolos 
+dentro de una suite de TCP/IP.
+
+Modelo OSI: Modelo de interconexión 
+de sistema abierto 
+y es el más conocido 
+ya que es el utilizado 
+para el diseño de redes de datos 
+y la especificación de su funcionamiento.
+
+Modelo TCP/IP
+
+Acceso a la red:  
+controlar los 
+dispositivos y 
+los medios que forman la red
+
+Internet: determina
+la mejor ruta dentro de la red.
+
+Transporte:  admitir las 
+comunicaciones entre distintos 	
+dispositivos y distintas redes.
+
+Aplicación:  Se encarga de 
+mostrar los datos al usuario, 
+controlar la codificación de los mismos.
+
+
+Ejemplo práctico de la 
+aplicación de este modelo
+
+Un mensaje es codificado 
+en la capa de aplicación.
+
+Se especifica el dispositivo receptor 
+y el medio de transporte en la capa de transporte.
+
+Se especifica la ruta mas óptima 
+para el envío del mensaje 
+en la capa de Internet
+
+Se reciben los datos 
+en la capa de acceso a red
+
+A partir de aquí 
+el camino es hacia arriba 
+en el modelo hasta 
+la capa de aplicación 
+donde se descodifica el mensaje 
+y se muestra al receptor.
+
+
+
+
+
