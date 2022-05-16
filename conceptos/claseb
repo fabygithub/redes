@@ -1,0 +1,15 @@
+clase b                red                      host  
+
+octeto           1             2             3         4 
+
+bits             11111111      11111111   00000000  00000000
+
+mascara          255           255            0         0   
+
+
+direccion de red : primeros 2 octetos (16 bits)
+direccion de host: ultimos 2 octetos(16 bits)
+
+
+
+
