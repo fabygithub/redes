@@ -1,0 +1,17 @@
+clase c               red                            host  
+
+octeto           1             2             3         4 
+
+bits             11111111      11111111   11111111  00000000
+
+mascara          255           255           255         0   
+
+
+direccion de red : primeros 3 octetos (24 bits)
+direccion de host: ultimos 1 octetos(8 bits)
+
+
+direccion de red : primeros 3 octetos(24 bits)
+direccion de host : ultimo octeto(8 bits)
+
+
