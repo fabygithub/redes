@@ -15,6 +15,8 @@ clase     direcciones desde    disponibles hasta      cantidad de redes     cant
   e       240.0.0.0             240.0.0.0                        no aplica                       investigacion
   
    
+  *el intervalo 127.0.0.0  a 127.255.255.255 esta reservado como loopback  y no se utiliza
+  
   
   
   
