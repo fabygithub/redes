@@ -1,0 +1,27 @@
+90.0.0.0/8
+
+940.000 
+1.900.000
+185.000      host
+3.300.000
+
+enlaces
+-mascara actual
+  n
+-2  - 2
+- nueva mascara
+-256 - ? salto de red
+
+
+n        host solicitados       host encontrados      direccion red   prefijo   mascara decimal    primera ip   ultima ip     broadcast
+1
+2
+3
+4
+a
+b
+c
+d
+
+
+
