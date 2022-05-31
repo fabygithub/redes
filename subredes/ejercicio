@@ -1,8 +1,6 @@
-90.0.0.0/8
-
 940.000 
 1.900.000
-185.000      host
+185.000         host
 3.300.000
 
 enlaces
@@ -13,15 +11,39 @@ enlaces
 -256 - ? salto de red
 
 
-n        host solicitados       host encontrados      direccion red   prefijo   mascara decimal    primera ip   ultima ip     broadcast
-1
-2
-3
-4
+
+                                               24
+90.0.0.0/8                       32-8 = 29    2    =>
+
+numero host
+ n             22
+2   -  2  =  2    - 2  = 4.194.302
+
+nueva mascara
+11111111.11000000.00000000.00000000
+  255       192       0        0
+  
+  salto de red
+  256-192 = 64
+  
+11111111.11000000.00000000.00000000
+ n
+2   - 2 = 
+
+n        host solicitados       host encontrados      direccion red   prefijo   mascara decimal    primera ip      ultima ip           broadcast
+1        3.300.000                4.194.302            98.0.0.0          /10       255.192.0.0       98.0.0.1      98.63.255.254      98.63.255.255
+2        1.900.000                                     98.64.0.0
+3        940.000
+4        185.000
 a
 b
 c
 d
+
+
+
+
+
 
 
 
