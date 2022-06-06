@@ -1,0 +1,27 @@
+
+red 192.168.0.0/24, 
+
+
+80 hosts
+
+
+ (2^7=128
+ menos red y broadcast
+
+126 hosts máx
+bloque sería /25 (8-7=1; 24+1=25)
+
+la primera dirección de subred 
+sería 192.168.0.0/25
+
+
+la primera dirección de subred 
+sería 192.168.0.0/25
+
+broadcast 192.168.0.127
+
+por lo tanto el 
+rango asignable
+sería .1 hasta .126
+
+
