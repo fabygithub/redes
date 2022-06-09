@@ -38,6 +38,33 @@ _______
  
  256-240 = 16
  
+ prefijo
+ 
+ 11111111.11111111.1111
+ 20
+ 
+ ultima ip 
+ segun direccion de red
+ 
+ broadcast
+ segun direccion de red
+ 
+ 
+ 
+   n
+ 2   -  2  > 1900
+  11
+ 2   -  2  =  2046
+ 
+  nueva mascara 
+ 1 mascara
+ 
+ 128 64 32 16 8 4 2 1
+ 
+ 11111111.11111111.11111000.00000000
+    255      255     248       0
+ 
+ 
  
  
  n     host solicitados   direccion de red    prefijo    mascara decimal punteado    primera ip utilizable   ultima ip utilizable      broadcast
