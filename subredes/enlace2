@@ -105,13 +105,43 @@ _______
  segun direccion de red   
  
  
+     n
+ 2   -  2  > 400
+ 
+  9
+ 2   -  2  =  510
+ 
+ nueva mascara 
+ 1 mascara
+ 
+ 128 64 32 16 8 4 2 1
+ 
+ 11111111.11111111.11111110.00000000
+    255      255     254       0
+    
+    
+  salto de red
+ 
+ 256-254 = 2
+ 
+ prefijo
+ 23
+ 
+ ultima ip 
+ segun direccion de red
+ 
+ broadcast
+ segun direccion de red   
+ 
+ 
+ 
  n     host solicitados   direccion de red    prefijo    mascara decimal punteado    primera ip utilizable   ultima ip utilizable      broadcast
  
  1        3000              153.25.12.0       /20          255.255.240.0              153.25.12.1              153.25.27.254           153.25.27.255
  2        1900              153.25.28.0       /21          255.255.248.0              153.25.28.1              153.25.35.254           153.25.35.255                           
  3         900              153.25.36.0       /22          255.255.252.0              153.25.36.1              153.25.39.254           153.25.39.255                                                                    
- 4         400              153.25.40.0
- 
+ 4         400              153.25.40.0       /23          255.255.254.0              153.25.40.1              153.25.41.254           153.25.41.255
+                            153.25.42.0
  
  
  
