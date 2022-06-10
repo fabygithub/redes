@@ -1,27 +1,24 @@
+ip
+red 192.168.0.0/24
 
-red 192.168.0.0/24, 
-
-
+se pide
 80 hosts
 
-
- (2^7=128
+   n
+ 2   > 80 
+ 
+   7 
+ 2  - 2  = 126
  menos red y broadcast
 
-126 hosts máx
-bloque sería /25 (8-7=1; 24+1=25)
 
-la primera dirección de subred 
-sería 192.168.0.0/25
+nueva mascara
+11111111.11111111.11111111.10000000
+255.255.255.128
 
 
-la primera dirección de subred 
-sería 192.168.0.0/25
+prefijo
+/25 
 
-broadcast 192.168.0.127
-
-por lo tanto el 
-rango asignable
-sería .1 hasta .126
 
 
