@@ -1,0 +1,39 @@
+ip
+10.0.0.0/8     
+
+mascara actual
+11111111.00000000.00000000.00000000
+255        0        0         0
+
+subredes
+7
+
+formula
+ 3           3
+2   = 8   ; 2   >  7
+
+host solicitados
+   n
+ 2   > 1.900.000
+ 
+ host encontrados
+   21 
+ 2  - 2  =  2.097.150
+
+
+nueva mascara
+11111111.11111111.11111111.10000000
+255         255     255      128
+
+
+salto de red
+256-128 =  128
+
+prefijo
+11111111.11111111.11111111.10000000
+/25 
+
+n     host solicitados host encontrados   direccion de red    prefijo    mascara decimal     primera ip    ultima ip       broadcast
+ 
+ 1        80                 126            192.168.0.0       /25        255.255.255.128     192.168.0.1                   
+ 2                                          192.  
