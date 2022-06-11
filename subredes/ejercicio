@@ -52,7 +52,11 @@ salto de red
  nueva mascara 
  11111111.11110000.00000000.00000000
  255       240       0       0
+ 
+ prefijo
+ 12
 
+ salto de red
  256 - 240 = 16
 
 
