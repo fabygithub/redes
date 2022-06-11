@@ -9,16 +9,27 @@ se pide
  
    7 
  2  - 2  = 126
- menos red y broadcast
 
 
 nueva mascara
 11111111.11111111.11111111.10000000
-255.255.255.128
+255         255     255      128
 
+
+salto de red
+256-128 =  128
 
 prefijo
+11111111.11111111.11111111.10000000
 /25 
+
+n     host solicitados host encontrados   direccion de red    prefijo    mascara decimal         primera ip utilizable   ultima ip utilizable      broadcast
+ 
+ 1        80                                153.25.12.0       /20          255.255.240.0         153.25.12.1              153.25.27.254           153.25.27.255
+ 2                                          153.25.28.0   
+
+
+
 
 
 
