@@ -28,15 +28,18 @@ mascara actual
  11111111.11000000.00000000.00000000
    255       192      0        0
  
+ prefijo
+ 10
+ 
  saldo de red
  
  256 - 192 = 64
  
  
- n  host solicitados host encontrados
+ n  host solicitados host encontrados direccion de red   prefijo    nueva mascara  primera ip  ultima ip  broadcast
  
- 0  4.000.000        4.194.302
- 1
+ 0  4.000.000        4.194.302        64.0.0.0              10      255.192.0.0    64.0.0.1             
+ 1                                    64.64.0.0
  2
  3
  4
