@@ -44,11 +44,8 @@ prefijo
 salto de red
 256-224 = 32
 
-host de subred
-1.900.900
-
  
- host encontrados (todos los 0 de la mascara)
+ host encontrados (todos los 0 de la mascara nueva)
    21 
  2  - 2  =  2.097.150
  
