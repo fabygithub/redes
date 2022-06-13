@@ -1,5 +1,6 @@
 192.168.1.0/24  (120,24,10,59) host
 
+4 enlaces
 
 n     host solicitado  host encontrados  red           prefijo      mascara               primera ip        ultima ip         broadcast
 
